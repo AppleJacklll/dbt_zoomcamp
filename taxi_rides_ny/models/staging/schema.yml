@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dbtlbs
+    schema: trips_data_all
+
+    tables:
+      - name: green_taxi
+      - name: yellow_taxi
